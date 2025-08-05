@@ -45,7 +45,6 @@ and analyzed for color, texture, and shape features.
 
 1. **Clone the repo**
 git clone https://github.com/SHYAMESH-KOMATLA/Crop-and-Weed-Detection-Using-Yolov5.git
-cd your-repo-name/yolov5
 
 Create a virtual environment (optional)
 python -m venv venv
