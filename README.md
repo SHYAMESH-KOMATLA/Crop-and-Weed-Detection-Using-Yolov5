@@ -1,10 +1,8 @@
-# 🌾 Real-Time Crop & Weed Detection Using Deep Learning
+# 🌾 Real-Time Crop & Weed Detection Using YOLOV5
 
 ## 📌 Abstract
 
 Site-specific weed management and selective application of herbicides as eco-friendly techniques are still challenging tasks—especially for densely cultivated crops like rice. This project aims to develop a real-time crop and weed detection system using a stereo vision camera setup and deep learning. It distinguishes between rice plants and weeds and classifies them using artificial neural networks optimized with metaheuristics (PSO and Bee Algorithm). It achieves **over 90% classification accuracy** on test sets, outperforming traditional classifiers like KNN.
-
-![Model Setup](readme_images/image_1.png)
 
 ## 🧪 Materials and Methods
 
@@ -14,12 +12,8 @@ Site-specific weed management and selective application of herbicides as eco-fri
 - **Camera:** Fujifilm FinePix Real 3D-W3 stereo camera
 - **Processing:** FFmpeg, MATLAB, YOLOv5
 
-![Data Collection](readme_images/image_2.png)
-
 The stereo camera was mounted on a rail platform moving at 0.10 m/s. Data was collected in stereo video format, converted into frames, segmented using RGB thresholds,
 and analyzed for color, texture, and shape features.
-
-![Segmentation](readme_images/image_3.png)
 
 ## 🧠 Deep Learning & Feature Optimization
 
@@ -61,6 +55,8 @@ pip install -r requirements.txt
 Run the detection (DroidCam/Webcam required)
 python detect_live.py
 Press Q to quit the camera window.
-
+## Sample Images
+(readme_images/image_1.png)
+(readme_images/image_2.png)
 
 
