@@ -6,7 +6,7 @@ Site-specific weed management and selective application of herbicides as eco-fri
 
 ## 🧪 Materials and Methods
 
-- **Study Region:** 5-hectare rice field in Mazandaran, Iran
+- **Study Region:** 5-hectare rice field in Karimnagar, Telagana , India.
 - **Crops:** Rice (Tarom Mahali)
 - **Weeds:** Narrow-leaf (e.g., *Echinochloa crus-galli*), Broad-leaf (e.g., *Alisma plantago-aquatica*)
 - **Camera:** Fujifilm FinePix Real 3D-W3 stereo camera
@@ -44,7 +44,7 @@ and analyzed for color, texture, and shape features.
 ## 🚀 How to Run the Project
 
 1. **Clone the repo**
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/SHYAMESH-KOMATLA/Crop-and-Weed-Detection-Using-Yolov5.git
 cd your-repo-name/yolov5
 
 Create a virtual environment (optional)
@@ -59,10 +59,10 @@ Press Q to quit the camera window.
 ## 📸 Detection Output
 
 ### Weed Detection Example:
-![Weed Detection](readme_images/image1.png)
+![Weed Detection](readme_images/image_1.png)
 
 ### Crop & Weed Frame:
-![Crop and Weed](readme_images/image2.png)
+![Crop and Weed](readme_images/image_2.png)
 
 
 
