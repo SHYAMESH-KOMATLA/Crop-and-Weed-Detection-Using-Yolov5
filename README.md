@@ -56,7 +56,13 @@ Run the detection (DroidCam/Webcam required)
 python detect_live.py
 Press Q to quit the camera window.
 ## Sample Images
-(readme_images/image_1.png)
-(readme_images/image_2.png)
+## 📸 Detection Output
+
+### Weed Detection Example:
+![Weed Detection](readme_images/image1.png)
+
+### Crop & Weed Frame:
+![Crop and Weed](readme_images/image2.png)
+
 
 
